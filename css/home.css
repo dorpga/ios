@@ -3,7 +3,7 @@
  (C) 2016 Carver Harrison
 */
 
-body p, a {
+body * {
  font-family: sans-serif;
  font-weight: 100;
  color: white;
