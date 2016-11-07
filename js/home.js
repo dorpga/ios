@@ -4,5 +4,7 @@ home.js
 */
 
 function start() {
-  $('icon').append('<a href="apps/' + $('icon').attr('app') + '"><img class="icon-image" src="apps/' + $('icon').attr('app') + '/icon.png" /><div class="icon-title">' + $('icon').attr('title') + '</div>')
+  $('icon').each(function (index) {
+     $(this).append('<a href="apps/' + $('icon').attr('app') + '"><img class="icon-image" src="apps/' + $('icon').attr('app') + '/icon.png" /><div class="icon-title">' + $('icon').attr('title') + '</div>');
+  });
 }
