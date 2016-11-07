@@ -16,6 +16,7 @@ body * {
 
 icon {
  display: inline-block;
+ margin: 10%;
 }
 
 icon img {
