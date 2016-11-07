@@ -4,5 +4,10 @@
 */
 
 icon {
-  display: inline-block;
+ display: inline-block;
+}
+
+icon img {
+ height: 10vh;
+ width: 25vw;
 }
