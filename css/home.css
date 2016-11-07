@@ -14,13 +14,6 @@ body * {
  text-decoration: none;
 }
 
-icon-dock {
- position: fixed;
- bottom: 0;
- left: 25%;
- z-index: 2;
-}
-
 icon {
  display: inline-block;
  margin: 5%;
