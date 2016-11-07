@@ -3,6 +3,6 @@
  (C) 2016 Carver Harrison
 */
 
-icon a {
-  display: inline;
+icon {
+  display: inline-block;
 }
