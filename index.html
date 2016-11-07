@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <title>Home Screen</title>
+    <link rel="stylesheet" href="/css/home.css" />
+    <script src="/js/home.js"></script>
   </head>
   <body>
+    <homescreen>
+      <icon-grid>
+        <page data-page="1">
+          <icon title="Camera" app="camera" />
+          <icon title="Notes" app="notes" />
+          <icon title="Search" app="search" />
+        </page>
+      </icon-grid>
+      <icon-dock>
+        <icon title="IRC" app="irc" />
+        <icon title="Chatroom" app="chatroom" />
+        <icon title="Internet" app="internet" />
+      </icon-dock>
+    </homescreen>
   </body>
 </html>
